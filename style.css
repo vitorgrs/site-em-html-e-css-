@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family: 'Franklin Gothic';
+    font-size: 20px;
+    padding: 10px 0 10px 0 ;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+body{
+    background-color: azure;
+   
+}
+header{
+    background-color: red;
+    height: 50px;
+}
+#menu{ 
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+   
+
+}
+#menu a{
+    text-decoration: none;
+    padding: 15px 20px 0 0;
+    text-shadow: 1px px #111111;
+    color:#111111
+}
+#menu a:hover{
+    color: blue;
+    
+}
+#div-principal{
+    color: white;
+    text-align: center;
+    clear: both;
+    min-height: 290px;
+    background-image: url('redes-computadores.jpg');
+    background-size: 100%;
+    padding: 40px 0 0 0;
+    font-size: 40px;
+    
+    
+    
+
+}
+
+#div-esquerda{
+    background-color: blueviolet; 
+    height: 30px;
+    width: 50%;
+    float:left;
+
+}
+#div-direita{
+    background-color: orchid;
+    height: 30px;
+    width: 50%;
+    float:right;
+
+}
+
+
+footer{
+    clear: both;
+    background-color: aqua;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    
+}
